@@ -59,3 +59,12 @@ Contributors
 * Mark Galloway
 * Abram Hindle
 * Cole Mackenzie
+
+References
+============
+[WebSocket Python Example](https://github.com/abramhindle/WebSocketsExamples/blob/master/chat.py)
+[WebSocket Script Example](https://github.com/abramhindle/WebSocketsExamples/blob/master/static/broadcast.html)
+[Flask Redirect](https://pythonbasics.org/flask-redirect-and-errors/)
+[Assignment 4 Python Code](https://github.com/NVectors/CMPUT404-assignment-ajax/blob/master/server.py)
+[Assignment 4 Script Code](https://github.com/NVectors/CMPUT404-assignment-ajax/blob/master/static/index.html)
+[JSONIFY](https://www.geeksforgeeks.org/use-jsonify-instead-of-json-dumps-in-flask/)

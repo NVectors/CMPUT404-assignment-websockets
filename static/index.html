@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width" />
     <meta name="license" content="
         Copyright 2013 Google, Abram Hindle
+        Copyright 2023, Victor Nguyen
 
         Licensed under the Apache License, Version 2.0 (the "License");
         you may not use this file except in compliance with the License.
@@ -258,10 +259,12 @@ function update() {
 
 
 function wsSetup() {
+    //Abram Hindle, Accessed March 30, https://github.com/abramhindle/WebSocketsExamples/blob/master/static/broadcast.html
     var url = "ws://"+host+"/subscribe";
     socket = new WebSocket(url);
     socket.onopen = function() {
         //XXX: TODO What are you going to do here?
+            // Nothing but a debug message would be helpful
         debug("Websocket has opened");
     };
     socket.onerror = function(msg) {
